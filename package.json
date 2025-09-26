@@ -1,0 +1,42 @@
+{
+  "name": "lumoslite",
+  "version": "1.0.2",
+  "description": "A simple animate-on-scroll library like AOS",
+  "homepage": "https://pourzakaria.com/lumos",
+  "main": "dist/lumos.js",
+  "module": "dist/lumos.esm.js",
+  "style": "dist/lumos.css",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "scroll",
+    "animation",
+    "aos",
+    "vanilla-js",
+    "javascript"
+  ],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmehrab-pz/Lumos"
+  },
+  "author": "mehrab",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  },
+  "devDependencies": {
+    "rollup": "^4.52.2",
+    "rollup-plugin-css-only": "^4.5.5"
+  }
+}

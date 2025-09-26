@@ -1,0 +1,180 @@
+/* -------------------------------------movement------------------------------------------ */
+
+.lumos {
+    transition: .5s ease-in-out;
+}
+
+/* -----------------------------fade----------------------------- */
+.fade-up {
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+.fade-down {
+    transform: translateY(-100px);
+    opacity: 0;
+}
+
+.fade-left {
+    transform: translateX(-100px);
+    opacity: 0;
+}
+
+.fade-right {
+    transform: translateX(100px);
+    opacity: 0;
+}
+
+.fade-in {
+    opacity: 0;
+}
+
+/* -----------------------------zoom----------------------------- */
+/* -------in-------- */
+.zoom-in {
+    transform: scale(0.4);
+    opacity: 0;
+}
+
+.zoom-in-up {
+    transform: scale(0.4) translateY(200px);
+    opacity: 0;
+}
+
+.zoom-in-down {
+    transform: scale(0.4) translateY(-200px);
+    opacity: 0;
+}
+
+.zoom-in-left {
+    transform: scale(0.4) translateX(-200px);
+    opacity: 0;
+}
+
+.zoom-in-right {
+    transform: scale(0.4) translateX(200px);
+    opacity: 0;
+}
+
+/* -------out-------- */
+.zoom-out {
+    transform: scale(1.4);
+    opacity: 0;
+}
+
+.zoom-out-up {
+    transform: scale(1.4) translateY(200px);
+    opacity: 0;
+}
+
+.zoom-out-down {
+    transform: scale(1.4) translateY(-200px);
+    opacity: 0;
+}
+
+.zoom-out-left {
+    transform: scale(1.4) translateX(-200px);
+    opacity: 0;
+}
+
+.zoom-out-right {
+    transform: scale(1.4) translateX(200px);
+    opacity: 0;
+}
+
+/* -----------------------------flip----------------------------- */
+.flip-up {}
+
+.flip-down {}
+
+.flip-x {}
+
+.flip-y {}
+
+/* -----------------------------------duration-------------------------------------------- */
+.dur-100 {
+    transition-duration: 100ms !important;
+}
+
+.dur-200 {
+    transition-duration: 200ms !important;
+}
+
+.dur-300 {
+    transition-duration: 300ms !important;
+}
+
+.dur-400 {
+    transition-duration: 400ms !important;
+}
+
+.dur-500 {
+    transition-duration: 500ms !important;
+}
+
+.dur-600 {
+    transition-duration: 600ms !important;
+}
+
+.dur-700 {
+    transition-duration: 700ms !important;
+}
+
+.dur-800 {
+    transition-duration: 800ms !important;
+}
+
+.dur-900 {
+    transition-duration: 900ms !important;
+}
+
+.dur-1000 {
+    transition-duration: 1000ms !important;
+}
+/* -----------------------------------timing function-------------------------------------------- */
+.linear{
+    transition-timing-function: linear !important;
+}
+.ease{
+    transition-timing-function: ease !important;
+}
+.ease-in{
+    transition-timing-function: ease-in !important;
+}
+.ease-in-out{
+    transition-timing-function: ease-in-out !important;
+}
+.ease-out{
+    transition-timing-function: ease-out !important;
+}
+/* -----------------------------------delay-------------------------------------------- */
+.del-100{
+    transition-delay: 100ms !important;
+}
+.del-200{
+    transition-delay: 200ms !important;
+}
+.del-300{
+    transition-delay: 300ms !important;
+}
+.del-400{
+    transition-delay: 400ms !important;
+}
+.del-500{
+    transition-delay: 500ms !important;
+}
+.del-600{
+    transition-delay: 600ms !important;
+}
+.del-700{
+    transition-delay: 700ms !important;
+}
+.del-800{
+    transition-delay: 800ms !important;
+}
+.del-900{
+    transition-delay: 900ms !important;
+}
+.del-1000{
+    transition-delay: 1000ms !important;
+}
