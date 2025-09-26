@@ -57,7 +57,7 @@ Whether you need subtle fade-ins, sliding effects, or more complex animations, L
 ## 🌐 Live Demo
 
 Check out the live version of this Generator:  
-👉 [View Demo](https://www.instagram.com/mehrab.poorzakaria_web/Lumos/)
+👉 [View Demo](https://pourzakaria.com/lumos/)
 
 ## 🔗 Connect with Me
 
