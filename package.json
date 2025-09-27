@@ -1,6 +1,6 @@
 {
   "name": "lumoslite",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A simple animate-on-scroll library like AOS",
   "homepage": "https://pourzakaria.com/lumos/",
   "main": "dist/lumos.js",
