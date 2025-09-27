@@ -1,12 +1,19 @@
 const lumos = document.querySelectorAll('.lumos');
-console.log(lumos);
+
+const attrs = [
+    'data-lumos',
+    'data-lumos-duration',
+    'data-lumos-timingFunction',
+    'data-lumos-delay'
+];
 
 lumos.forEach((item) => {
-    item.classList.add(item.getAttribute('data-lumos'));
-    item.classList.add(item.getAttribute('data-lumos-duration'));
-    item.classList.add(item.getAttribute('data-lumos-timingFunction'));
-    item.classList.add(item.getAttribute('data-lumos-delay'));
-
+    attrs.forEach(attr => {
+        const val = item.getAttribute(attr);
+        if (val) {
+            item.classList.add(val);
+        }
+    });
 });
 
 window.addEventListener('scroll', () => {
@@ -15,23 +22,16 @@ window.addEventListener('scroll', () => {
     lumos.forEach((item) => {
         let rec = item.getBoundingClientRect();
 
-        if (SY > rec.bottom) {
-            item.classList.remove(item.getAttribute('data-lumos'));
-        } else {
-            item.classList.add(item.getAttribute('data-lumos'));
+        attrs.forEach(attr => {
+            const val = item.getAttribute(attr);
+            if (val) {
+                if (SY > rec.bottom) {
+                    item.classList.remove(item.getAttribute('data-lumos'));
+                } else {
+                    item.classList.add(item.getAttribute('data-lumos'));
 
-        }
+                }
+            }
+        });
     });
 });
-
-class Lumos {
-    constructor(options = {}) {
-        this.options = options;
-    }
-
-    init() {
-        console.log("✨ Lumos initialized!");
-    }
-}
-
-export { Lumos as default };
