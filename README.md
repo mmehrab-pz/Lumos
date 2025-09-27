@@ -82,10 +82,10 @@ If you don’t want to install via npm, you can quickly include Lumos using a CD
 Just add the following lines inside your `<head>` and `<body>`:
 ```html
 <!-- Lumos CSS -->
-<link rel="stylesheet" href="https://unpkg.com/lumoslite@1.0.2/dist/lumos.css">
+<link rel="stylesheet" href="https://unpkg.com/lumoslite@1.0.9/dist/lumos.css">
 
 <!-- Lumos JS -->
-<script src="https://unpkg.com/lumoslite@1.0.2/dist/lumos.min.js"></script>
+<script src="https://unpkg.com/lumoslite@1.0.9/dist/lumos.min.js"></script>
 
 <script>
 	lumoslite.init()
